@@ -6,3 +6,5 @@ A mod to optimize the BML spawn
 
 ### 附加功能：
 为了避免在变球的时候误触快捷键引发各种bug，现在，当你正在变球的时候，该mod的快捷键失效。
+
+### Thanks for the help of BallanceBug and Swung
