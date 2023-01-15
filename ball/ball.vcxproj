@@ -19,9 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\submodule\hash-library\md5.h" />
     <ClInclude Include="spawnp.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\submodule\hash-library\md5.cpp" />
     <ClCompile Include="spawnp.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -119,7 +121,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>E:\dependency\BML-0.3.40-dev\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\dependency\BML-0.3.40-dev\include;$(ProjectDir)..\submodule\hash-library</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
