@@ -1,0 +1,6 @@
+[submodule "hash-library"]
+	path = hash-library
+	url = https://github.com/stbrumme/hash-library.git
+[submodule "submodule/hash-library"]
+	path = submodule/hash-library
+	url = https://github.com/stbrumme/hash-library.git

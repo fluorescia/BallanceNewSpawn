@@ -18,9 +18,15 @@
     <ClInclude Include="spawnp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\submodule\hash-library\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="spawnp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\submodule\hash-library\md5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
